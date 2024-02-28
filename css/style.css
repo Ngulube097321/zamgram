@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+img {
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: blueviolet;
+  background-size: cover;
+  background-position: center;
+}
+span {
+  color: #88a3c0;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.nav-bar ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+.nav-bar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.hero a {
+  text-decoration: none;
+}
+.hero-2 {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+.hero-2 img {
+  /* position: relative;
+  height: 100%;
+  width: calc(120% -80px);
+  top: -10px;
+  right: 50px; */
+}
+
+h1 {
+  float: left;
+  color: white;
+  margin: 80px 0 80px;
+  font-size: 90px;
+  font-weight: bold;
+}
+h2 {
+  color: white;
+  margin: 10px o 10px;
+  padding: auto;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  text-transform: lowercase;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #1b1f22;
+  padding: 8px 14px;
+  margin: 40px 5px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+button:hover {
+  color: #7f00ff;
+}
+.hero-3 {
+  width: 100%;
+  padding: 300px 0;
+  background: #212224;
+}
+.hero-3 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.hero-3 p {
+  border: 20px solid rgb(20, 29, 45);
+  border-radius: 20px;
+  margin: 50px;
+  padding: 100px;
+  font-family: serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 35px;
+  font-style: italic;
+}
+.hero-4 {
+  background: #3f536e;
+  text-align: center;
+  width: 100%;
+  padding: 100px 0;
+}
+.title h2 {
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 356px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.pra p {
+  color: #fcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  float: left;
+}
+.card .button {
+  background-color: #f90040;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.card .button:hover {
+  background-color: transparent;
+  border: 2px solid #f90040;
+  cursor: pointer;
+}
+.contact-me {
+  width: 100%;
+  height: 290px;
+  background: #191919;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-me p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
